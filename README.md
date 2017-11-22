@@ -51,6 +51,7 @@ subdirectory](https://github.com/gorilla/websocket/tree/master/examples/autobahn
 <tr><td>Write message using io.WriteCloser</td><td><a href="http://godoc.org/github.com/gorilla/websocket#Conn.NextWriter">Yes</a></td><td>No, see note 3</td></tr>
 </table>
 
+[![Report](https://inspecode.rocro.com/badges/github.com/hagirin3/websocket/report?token=uudWMz1zSvb6eixsljgE--5Uz-9GS9hO6beOQdYmK40&branch=master)](https://inspecode.rocro.com/reports/github.com/hagirin3/websocket/branch/master/summary)
 Notes: 
 
 1. Large messages are fragmented in [Chrome's new WebSocket implementation](http://www.ietf.org/mail-archive/web/hybi/current/msg10503.html).
